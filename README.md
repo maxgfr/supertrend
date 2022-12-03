@@ -1,24 +1,26 @@
-# typescript-boilerplate-package
+# supertrend
 
-`typescript-boilerplate-package` is a package that helps you to create a typescript project with a nice structure. It uses [semantic-release](https://github.com/semantic-release/semantic-release) to publish your package on npm and generate a changelog.
+The Super Trend indicator, is a trending indicator that can be used to identify if the price is in an upward or downward trend. If the price is above the line then it acts as a point of support, and if below the line it acts as a point of resistance. The indicator is based on the ATR indicator, and is used to identify the trend direction and strength.
+
+## Installation
+
+```bash
+yarn add supertrend
+```
 
 ## Usage
 
-After cloning this repository or using it as a template, you have to follow these steps:
+```typescript
+import { supertrend } from 'supertrend';
 
-1. Grant permission of your repository to allow `semantic-release` to change dynamically the version of the package.
-
-![Alt Text](https://raw.githubusercontent.com/maxgfr/typescript-boilerplate-package/main/.github/assets/permissions.png)
-
-2. Set `NPM_TOKEN` in your Github actions secret.
-
-![Alt Text](https://raw.githubusercontent.com/maxgfr/typescript-boilerplate-package/main/.github/assets/token.png)
-
-## Test this boilerplate
-
-To test it, you can install it with `npm install typescript-boilerplate-package`. Then :
-
-```ts
-import {sayHello} from "typescript-boilerplate-package";
-sayHello();
+supertrend({
+  initialArray: [
+    {"high":4035,"low":3893.77,"close":4020.99},
+    ...
+    {"high":5000,"low":4900.77,"close":4950.99},
+  ],
+  multiplier: 3,
+  period: 10,
+})
+// => [ 0, 4670.9619, 2000 ]
 ```

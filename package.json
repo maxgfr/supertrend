@@ -1,28 +1,29 @@
 {
-  "name": "typescript-boilerplate-package",
-  "version": "1.0.3",
+  "name": "supertrend",
+  "version": "1.0.0",
   "author": "maxgfr",
   "license": "MIT",
-  "description": "A typescript boilerplate using swc to release a package on npm",
+  "description": "Implementation of supertrend indicator",
   "main": "./build/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/maxgfr/typescript-boilerplate-package.git"
+    "url": "https://github.com/maxgfr/supertrend.git"
   },
   "bugs": {
-    "url": "https://github.com/maxgfr/typescript-boilerplate-package/issues"
+    "url": "https://github.com/maxgfr/supertrend/issues"
   },
-  "homepage": "https://github.com/maxgfr/typescript-boilerplate-package#readme",
+  "homepage": "https://github.com/maxgfr/supertrend#readme",
   "files": [
     "build"
   ],
   "keywords": [
-    "boilerplate",
-    "typescript",
-    "swc",
-    "package",
-    "release",
-    "github"
+    "supertrend",
+    "technicalindicators",
+    "technical",
+    "indicators",
+    "trading",
+    "finance",
+    "cryptocurrency"
   ],
   "scripts": {
     "start": "node build/index.js",
@@ -39,7 +40,9 @@
     "prettier": "prettier --write './src/**/*.{ts,js,json}'",
     "release": "semantic-release"
   },
-  "dependencies": {},
+  "dependencies": {
+    "technicalindicators": "^3.1.0"
+  },
   "devDependencies": {
     "@semantic-release/changelog": "^6.0.2",
     "@semantic-release/commit-analyzer": "^9.0.2",

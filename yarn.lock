@@ -1436,6 +1436,11 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-18.11.10.tgz#4c64759f3c2343b7e6c4b9caf761c7a3a05cee34"
   integrity sha512-juG3RWMBOqcOuXC643OAdSA525V44cVgGV6dUDuiFtss+8Fk5x1hI93Rsld43VeJVIeqlP9I7Fn9/qaVqoEAuQ==
 
+"@types/node@^6.0.96":
+  version "6.14.13"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-6.14.13.tgz#b6649578fc0b5dac88c4ef48a46cab33c50a6c72"
+  integrity sha512-J1F0XJ/9zxlZel5ZlbeSuHW2OpabrUAqpFuC2sm2I3by8sERQ8+KCjNKUcq8QHuzpGMWiJpo9ZxeHrqrP2KzQw==
+
 "@types/normalize-package-data@^2.4.0":
   version "2.4.1"
   resolved "https://registry.yarnpkg.com/@types/normalize-package-data/-/normalize-package-data-2.4.1.tgz#d3357479a0fdfdd5907fe67e17e0a85c906e1301"
@@ -5612,6 +5617,13 @@ tar@^6.1.0, tar@^6.1.11, tar@^6.1.2:
     minizlib "^2.1.1"
     mkdirp "^1.0.3"
     yallist "^4.0.0"
+
+technicalindicators@^3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/technicalindicators/-/technicalindicators-3.1.0.tgz#a275d36c6d478dda55e002deddcb42aa5cc33f4e"
+  integrity sha512-f16mOc+Y05hNy/of+UbGxhxQQmxUztCiluhsqC5QLUYz4WowUgKde9m6nIjK1Kay0wGHigT0IkOabpp0+22UfA==
+  dependencies:
+    "@types/node" "^6.0.96"
 
 temp-dir@^2.0.0:
   version "2.0.0"
