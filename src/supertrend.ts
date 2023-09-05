@@ -28,8 +28,6 @@ export function supertrend(
 
   const r = [...initialArray];
 
-  console.log(r)
-
   for (let i = 0; i < period; i++) {
     r.shift();
   }
