@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/maxgfr/supertrend/compare/v1.0.0...v1.0.1) (2024-04-20)
+
+
+### Bug Fixes
+
+* snapshot ([0393d65](https://github.com/maxgfr/supertrend/commit/0393d65e27f5e144acabfee09c67385d812f7248))
+
 # 1.0.0 (2022-12-03)
 
 
