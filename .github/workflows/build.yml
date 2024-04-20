@@ -9,6 +9,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
       - name: Install
-        run: yarn
+        run: yarn install --frozen-lockfile
       - name: Build
         run: yarn build
