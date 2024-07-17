@@ -50,7 +50,7 @@
     "@semantic-release/github": "^8.0.7",
     "@semantic-release/npm": "^9.0.1",
     "@semantic-release/release-notes-generator": "^10.0.3",
-    "@swc-node/register": "1.10.8",
+    "@swc-node/register": "1.10.9",
     "@swc/cli": "0.4.0",
     "@swc/core": "1.6.13",
     "@swc/jest": "0.2.36",
