@@ -1,6 +1,6 @@
 {
   "name": "supertrend",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "maxgfr",
   "license": "MIT",
   "description": "Implementation of supertrend indicator",
